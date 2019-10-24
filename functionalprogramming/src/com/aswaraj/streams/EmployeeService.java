@@ -202,7 +202,7 @@ public class EmployeeService {
 					Collectors.collectingAndThen(Collectors.maxBy(Comparator.comparingDouble(Employee::getSalary)), Optional::get)))
 			.entrySet().forEach(entry -> {
 				System.out.println(entry.getKey());
-				System.out.println("----------------------------------------------------------------");
+				System.out.println("---------------------------------------------------------------");
 				printEmployeeDetails(entry.getValue());
 			});
 	}

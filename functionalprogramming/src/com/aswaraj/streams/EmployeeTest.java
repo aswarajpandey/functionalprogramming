@@ -8,7 +8,7 @@ public class EmployeeTest {
 		EmployeeService employeeService = new EmployeeService();
 		employeeService.addEmployee();
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter option:");
+		System.out.println("Enter option: ");
 		int option = sc.nextInt();
 
 		switch (option) {
